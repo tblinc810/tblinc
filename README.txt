@@ -8,14 +8,13 @@ of Stable 2025.2 OpenStack environments on Ubuntu servers.
 --- DIRECT INSTALLATION ---
 
 Copy and paste this command to install TBLINC system-wide immediately:
-
-    wget -qO tblinc.deb "https://github.com/tblinc810/tblinc/raw/main/tblinc_v2.deb" && sudo apt install ./tblinc_v2.deb -y && rm tblinc_v2.deb
+ wget -qO tblinc.deb "https://github.com/tblinc810/tblinc/raw/main/tblinc_v2.deb" && sudo apt install ./tblinc.deb -y && rm tblinc.deb
 
 --- LOCAL INSTALLATION ---
 
 If you have downloaded the .deb file manually:
 
-    sudo dpkg -i tblinc_v2.deb
+    sudo dpkg -i tblinc.deb
 
 --- QUICK START ---
 
